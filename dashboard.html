@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MASTER CORE | MULTI-NODE</title>
+    <link rel="stylesheet" href="master-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>CORE_UNIT</h2>
+        <div class="status">SERVER: <span id="serv-status">OFFLINE</span></div>
+        <hr border="1" color="#222">
+        <div class="add-node">
+            <h4>CONNECT NEW WEB</h4>
+            <input type="text" id="nodeLink" placeholder="https://target-web.com">
+            <button class="btn" onclick="registerNewNode()">CONNECT LINK</button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <header>
+            <input type="text" id="tunnel" placeholder="PASTE CLOUDFLARE TUNNEL URL HERE">
+        </header>
+
+        <div class="grid" id="node-grid">
+            </div>
+
+        <div class="logs-container">
+            <h3>GLOBAL_LOG_STREAM</h3>
+            <div id="log-box"></div>
+        </div>
+    </main>
+
+    <script src="ui-logic.js"></script>
+</body>
+</html>
+
