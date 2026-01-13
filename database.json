@@ -1,0 +1,9 @@
+{
+  "active_nodes": {},
+  "global_logs": [],
+  "master_config": {
+    "version": "3.5.0",
+    "secure_mode": true
+  }
+}
+
